@@ -1,0 +1,73 @@
+.bannerContainer{
+  max-height: 100vh;
+
+}
+
+.bannerTop {
+  max-width: 100%;
+  height: 75vh;
+
+  background-image: url("/public/banner-img1.avif");
+  /* background-attachment: fixed; */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 60px;
+}
+.bannerTxt {
+  font-family: Arial;
+  font-size: larger;
+  text-align: left;
+  margin-top: 20vh;
+  color: aliceblue;
+  width: 45%;
+  text-shadow: 0 1px black;
+  filter: drop-shadow(#141e30);
+  height: fit-content;
+  float: left;
+}
+
+.subTXt {
+  line-height: 10px;
+}
+
+.bannerButton {
+  background: linear-gradient(to right, black, rgb(76, 75, 75));
+  color: white;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.bannerButtonDiv {
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+.bannerBottom {
+  padding-left: 70px;
+
+  padding-right: 70px;
+
+  color: #636466;
+  display: flex;
+  justify-content: space-between;
+}
+.bannerSwitches {
+  text-align: left;
+  font-weight: 400;
+  width: 300px;
+}
+.bannerSwitches:hover {
+  color: whitesmoke;
+}
+.bar {
+  width: 100%;
+  height: 2px;
+  background-color: #636466;
+}
+.switchTxt{
+  margin-top: 10px;
+  font-size: 18px;
+}
